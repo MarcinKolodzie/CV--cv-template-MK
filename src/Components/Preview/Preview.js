@@ -18,13 +18,19 @@ export const Preview = (props) => {
       className={`${classes.root}${className ? ` ${className}` : ''}`}
       {...otherProps}
     >
-      <Typography>
+      <Typography
+        variant={'h1'}
+      >
         {heading}
       </Typography>
-      <Typography>
+      <Typography
+        variant={'h2'}
+      >
         {degree}
       </Typography>
-      <Typography>
+      <Typography
+        variant={'h3'}
+      >
         {text}
       </Typography>
     </div>

@@ -3,11 +3,15 @@ import Head from './Components/Head'
 import Preview from './Components/Preview'
 import Photo from './Components/Photo'
 
+import classes from './styles.module.css'
+
 export const App = () => {
   return (
     <main>
       <Head>
-        <Photo/>
+        <Photo
+          className={classes.photo}
+        />
         <Preview
           heading={'Marcin Kołodziej'}
           degree={'Master of Chemistry, Frontend Developer'}
