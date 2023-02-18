@@ -1,10 +1,14 @@
 import React from 'react'
+import Head from './Components/Head'
 
 export const App = () => {
   return (
-    <div>
-      MK APP
-    </div>
+    <main>
+      <Head>
+
+      </Head>
+
+    </main>
   )
 }
 
