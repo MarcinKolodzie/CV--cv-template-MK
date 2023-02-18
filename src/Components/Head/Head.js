@@ -11,12 +11,12 @@ export const Head = (props) => {
   } = props
 
   return (
-    <span
+    <div
       className={`${classes.root}${className ? ` ${className}` : ''}`}
       {...otherProps}
     >
       {children}
-    </span>
+    </div>
   )
 }
 
