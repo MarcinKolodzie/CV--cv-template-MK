@@ -8,7 +8,8 @@ export const Preview = (props) => {
   const {
     className,
     heading,
-    degree,
+    degree1,
+    degree2,
     text,
     ...otherProps
   } = props
@@ -26,7 +27,12 @@ export const Preview = (props) => {
       <Typography
         variant={'h2'}
       >
-        {degree}
+        {degree1}
+      </Typography>
+      <Typography
+        variant={'h2'}
+      >
+        {degree2}
       </Typography>
       <Typography
         variant={'h3'}
@@ -40,7 +46,8 @@ export const Preview = (props) => {
 Preview.propTypes = {
   className: PropTypes.string,
   heading: PropTypes.string,
-  degree: PropTypes.string,
+  degree1: PropTypes.string,
+  degree2: PropTypes.string,
   text: PropTypes.string
 }
 
