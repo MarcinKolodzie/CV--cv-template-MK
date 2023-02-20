@@ -3,9 +3,10 @@ import Head from './Components/Head'
 import Main from './Components/Main'
 import Preview from './Components/Preview'
 import Photo from './Components/Photo'
-import Skills from './Components/Skills'
 import NarrowWing from './Components/NarrowWing'
+import Skills from './Components/Skills'
 import Contact from './Components/Contact'
+import Languages from './Components/Languages'
 import BigWing from './Components/BigWing'
 
 import classes from './styles.module.css'
@@ -23,6 +24,9 @@ const email = 'qwwerty@gmail.com'
 const phone = '1234567890'
 const linkLI = 'linkLI'
 const linkGIT = 'linkGIT'
+
+const language1 = 'language1'
+const language2 = 'language2'
 
 export const App = () => {
   return (
@@ -61,7 +65,11 @@ export const App = () => {
             skill8= {skill8}
           >
           </Skills>
-          {/* <Languages></Languages> */}
+          <Languages
+            language1 = {language1}
+            language2 = {language2}
+          >
+          </Languages>
         </NarrowWing>
         <BigWing>
           {/* <PreviousWork></PreviousWork> */}
