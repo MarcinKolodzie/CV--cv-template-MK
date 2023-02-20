@@ -9,7 +9,14 @@ import BigWing from './Components/BigWing'
 
 import classes from './styles.module.css'
 
-const skills = [{ skill: 'HTML5' }, { skill: 'CSS3' }, { skill: 'Webpack' }, { skill: 'Git' }, { skill: 'REACT' }, { skill: 'Problem solving' }, { skill: 'Critical thinking' }, { skill: 'Communication' }]
+const skill1 = 'HTML5'
+const skill2 = 'CSS3'
+const skill3 = 'Webpack'
+const skill4 = 'Git'
+const skill5 = 'REACT'
+const skill6 = 'Problem solving'
+const skill7 = 'Critical thinking'
+const skill8 = 'Communication'
 
 export const App = () => {
   return (
@@ -30,7 +37,14 @@ export const App = () => {
         <NarrowWing>
           {/* <Contact></Contact> */}
           <Skills
-            skills={skills}
+            skill1= {skill1}
+            skill2= {skill2}
+            skill3= {skill3}
+            skill4= {skill4}
+            skill5= {skill5}
+            skill6= {skill6}
+            skill7= {skill7}
+            skill8= {skill8}
           >
           </Skills>
           {/* <Languages></Languages> */}

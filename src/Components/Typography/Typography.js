@@ -14,12 +14,12 @@ export const Typography = (props) => {
   const variantClass = classes[variant]
 
   return (
-    <span
+    <div
       className={`${classes.root}${className ? ` ${className}` : ''}${variantClass ? ` ${variantClass}` : ''}`}
       {...otherProps}
     >
       {children}
-    </span>
+    </div>
   )
 }
 
