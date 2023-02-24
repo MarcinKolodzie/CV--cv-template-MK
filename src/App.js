@@ -8,6 +8,8 @@ import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import Languages from './Components/Languages'
 import BigWing from './Components/BigWing'
+import PreviousWork from './Components/PreviousWork'
+import Experience from './Components/Experience'
 
 import classes from './styles.module.css'
 
@@ -72,7 +74,43 @@ export const App = () => {
           </Languages>
         </NarrowWing>
         <BigWing>
-          {/* <PreviousWork></PreviousWork> */}
+          <PreviousWork>
+            <Experience
+              startData={'12.2022'}
+              endData={'now'}
+              position={'Test technician'}
+              employer={'Aircom'}
+              place={'Pietrzykowice n. Wrocław'}
+            />
+            <Experience
+              startData={'09.2022'}
+              endData={'11.2022'}
+              position={'Technician in Chemical Production'}
+              employer={'Aircom'}
+              place={'Pietrzykowice n. Wrocław'}
+            />
+            <Experience
+              startData={'2019-09'}
+              endData={'2022-08'}
+              position={'Junior research and technical specialist'}
+              employer={'Medical University of Lublin'}
+              place={'Lublin'}
+            />
+            <Experience
+              startData={'2015-04'}
+              endData={'2016-03'}
+              position={'Lab Worker & Quality Controller'}
+              employer={'Radpol S. A.'}
+              place={'Kolonia Prawiedniki n. Lublin'}
+            />
+            <Experience
+              startData={'2014-02'}
+              endData={'2021-10'}
+              position={'Self employed'}
+              employer={'Marcin Kołodziej'}
+              place={'Lublin'}
+            />
+          </PreviousWork>
           {/* <Courses></Courses> */}
         </BigWing>
       </Main>
