@@ -1,46 +1,35 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Typography from '../Typography'
 
 import classes from './styles.module.css'
-import Typography from '../Typography'
 
 export const Contact = (props) => {
   const {
     className,
-    email,
-    phone,
-    linkLI,
-    linkGIT,
+    children,
     ...otherProps
   } = props
 
   return (
-    <div
+    <ul
       className={`${classes.root}${className ? ` ${className}` : ''}`}
       {...otherProps}
     >
-      <Typography >
-        {email}
+      <Typography
+        variant={'h2'}
+      >
+        Contact
       </Typography>
-      <Typography >
-        {phone}
-      </Typography>
-      <Typography >
-        {linkLI}
-      </Typography>
-      <Typography >
-        {linkGIT}
-      </Typography>
-    </div>
+
+      {children}
+    </ul>
   )
 }
 
 Contact.propTypes = {
   className: PropTypes.string,
-  email: PropTypes.string,
-  phone: PropTypes.string,
-  linkLI: PropTypes.string,
-  linkGIT: PropTypes.string
+  children: PropTypes.node
 }
 
 export default Contact
