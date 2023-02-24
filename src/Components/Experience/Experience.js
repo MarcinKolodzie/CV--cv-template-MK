@@ -1,13 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import TimeOfWork from '../TimeOfWork'
+import WorkData from '../WorkData'
 
 import classes from './styles.module.css'
 
 export const Experience = (props) => {
   const {
     className,
-    timeChildren,
-    workChildren,
+    startData,
+    endData,
+    position,
+    employer,
+    place,
     ...otherProps
   } = props
 
@@ -16,20 +21,26 @@ export const Experience = (props) => {
       className={`${classes.root}${className ? ` ${className}` : ''}`}
       {...otherProps}
     >
-      <timePeriode>
-        {timeChildren}
-      </timePeriode>
-      <workData>
-        {workChildren}
-      </workData>
+      <TimeOfWork
+        startData={startData}
+        endData={endData}
+      />
+      <WorkData
+        position={position}
+        employer={employer}
+        place={place}
+      />
     </div>
   )
 }
 
 Experience.propTypes = {
   className: PropTypes.string,
-  timeChildren: PropTypes.string,
-  workChildren: PropTypes.string
+  startData: PropTypes.string,
+  endData: PropTypes.string,
+  position: PropTypes.string,
+  employer: PropTypes.string,
+  place: PropTypes.string
 }
 
 export default Experience
