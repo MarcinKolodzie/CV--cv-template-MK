@@ -12,6 +12,7 @@ import PreviousWork from './Components/PreviousWork'
 import Experience from './Components/Experience'
 
 import classes from './styles.module.css'
+import ContactItem from './Components/ContactItem'
 
 const skill1 = 'HTML5'
 const skill2 = 'CSS3'
@@ -48,12 +49,23 @@ export const App = () => {
       </Head>
       <Main>
         <NarrowWing>
-          <Contact
-            email = {email}
-            phone = {phone}
-            linkLI = {linkLI}
-            linkGIT = {linkGIT}
-          >
+          <Contact>
+            <ContactItem
+              icon={'email'}
+              text={email}
+            />
+            <ContactItem
+              icon={'phone'}
+              text = {phone}
+            />
+            <ContactItem
+              icon={'linkedIn'}
+              text = {linkLI}
+            />
+            <ContactItem
+              icon={'github'}
+              text = {linkGIT}
+            />
 
           </Contact>
           <Skills

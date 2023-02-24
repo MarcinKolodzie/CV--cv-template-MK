@@ -6,6 +6,7 @@ import Typography from '../Typography'
 import EmailIcon from './EmailIcon'
 import PhoneIcon from './PhoneIcon'
 import GitHubIcon from './GitHubIcon'
+import LinkedInIcon from './LinkedInIcon'
 
 export const ContactItem = (props) => {
   const {
@@ -33,7 +34,10 @@ export const ContactItem = (props) => {
             icon === 'github' ?
               <GitHubIcon />
               :
-              null
+              icon === 'linkedIn' ?
+                <LinkedInIcon />
+                :
+                null
 }
       </div>
       <div
