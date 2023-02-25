@@ -3,3 +3,7 @@
   flex-direction: row;
   padding: 10px 0px 10px 0px;
 }
+
+.iconWrapper{
+  margin-right: 10px;
+}

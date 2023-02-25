@@ -6,13 +6,14 @@ import Photo from './Components/Photo'
 import NarrowWing from './Components/NarrowWing'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
+import ContactItem from './Components/ContactItem'
 import Languages from './Components/Languages'
 import BigWing from './Components/BigWing'
 import PreviousWork from './Components/PreviousWork'
 import Experience from './Components/Experience'
+import Courses from './Components/Courses'
 
 import classes from './styles.module.css'
-import ContactItem from './Components/ContactItem'
 
 const skill1 = 'HTML5'
 const skill2 = 'CSS3'
@@ -123,7 +124,9 @@ export const App = () => {
               place={'Lublin'}
             />
           </PreviousWork>
-          {/* <Courses></Courses> */}
+          <Courses>
+            dhbchcb
+          </Courses>
         </BigWing>
       </Main>
 
