@@ -24,6 +24,11 @@ export const Skills = (props) => {
       className={`${classes.root}${className ? ` ${className}` : ''}`}
       {...otherProps}
     >
+      <Typography
+        variant={'h2'}
+      >
+        Skills
+      </Typography>
       <Typography >
         {skill1}
       </Typography>

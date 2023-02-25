@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import classes from './styles.module.css'
 import Typography from '../Typography'
 
-export const Courses = (props) => {
+export const Education = (props) => {
   const {
     className,
     ...otherProps
@@ -18,7 +18,7 @@ export const Courses = (props) => {
       <Typography
         variant={'h2'}
       >
-        Courses
+        Education
       </Typography>
       <div
         {...otherProps}
@@ -28,8 +28,8 @@ export const Courses = (props) => {
   )
 }
 
-Courses.propTypes = {
+Education.propTypes = {
   className: PropTypes.string
 }
 
-export default Courses
+export default Education

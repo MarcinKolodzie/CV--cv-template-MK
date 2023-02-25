@@ -11,9 +11,10 @@ import Languages from './Components/Languages'
 import BigWing from './Components/BigWing'
 import PreviousWork from './Components/PreviousWork'
 import Experience from './Components/Experience'
-import Courses from './Components/Courses'
+import Education from './Components/Education'
 
 import classes from './styles.module.css'
+import EducarionItem from './Components/EducationItem'
 
 const skill1 = 'HTML5'
 const skill2 = 'CSS3'
@@ -34,7 +35,7 @@ const language2 = 'language2'
 
 export const App = () => {
   return (
-    <main>
+    <div>
       <Head>
         <Photo
           className={classes.photo}
@@ -124,13 +125,33 @@ export const App = () => {
               place={'Lublin'}
             />
           </PreviousWork>
-          <Courses>
-            dhbchcb
-          </Courses>
+          <Education>
+            <EducarionItem
+              startData={'2021-11'}
+              endData={'2023-02'}
+              position={'Front-End, JavaScript developer'}
+              employer={'CodeRoad'}
+              place={'Lublin/remote'}
+            />
+            <EducarionItem
+              startData={'2007-10'}
+              endData={'2012-06'}
+              position={'Chemistry, master degree'}
+              employer={'Maria Curie-Skłodowska University'}
+              place={'Lublin'}
+            />
+            <EducarionItem
+              startData={'2011-11'}
+              endData={'2011-11'}
+              position={'Application of chemical safety requirements in terms of REACH and transport of dangerous materials ADR'}
+              employer={'Maria Curie-Skłodowska University'}
+              place={'Lublin'}
+            />
+          </Education>
         </BigWing>
       </Main>
 
-    </main>
+    </div>
   )
 }
 
