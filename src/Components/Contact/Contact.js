@@ -17,7 +17,7 @@ export const Contact = (props) => {
       {...otherProps}
     >
       <Typography
-        variant={'h2'}
+        variant={'h2h'}
       >
         Contact
       </Typography>

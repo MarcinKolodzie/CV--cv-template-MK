@@ -25,10 +25,10 @@ const skill6 = 'Problem solving'
 const skill7 = 'Critical thinking'
 const skill8 = 'Communication'
 
-const email = 'qwwerty@gmail.com'
-const phone = '1234567890'
-const linkLI = 'linkLI'
-const linkGIT = 'linkGIT'
+const email = 'marcin1.kolodziej @gmail.com'
+const phone = '794 263 397'
+const linkLI = 'www.linkedin.com/in/ marcin-kołodziej-4b5396211'
+const linkGIT = 'https://github.com/ MarcinKolodzie'
 
 const language1 = 'language1'
 const language2 = 'language2'
@@ -42,8 +42,7 @@ export const App = () => {
         />
         <Preview
           heading={'Marcin Kołodziej'}
-          degree1={'Master of Chemistry'}
-          degree2={'Frontend Developer'}
+          degree1={'Master of Chemistry, Frontend Developer'}
           text={`Creative and open-minded beginner front-end developer with critical thinking
           and problem-solving skills looking for a suitable developer position with an
           ambitious and exciting company.`}

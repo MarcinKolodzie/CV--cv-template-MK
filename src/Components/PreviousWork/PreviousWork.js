@@ -16,7 +16,7 @@ export const PreviousWork = (props) => {
       {...otherProps}
     >
       <Typography
-        variant={'h2'}
+        variant={'h2h'}
       >
         Experience
       </Typography>

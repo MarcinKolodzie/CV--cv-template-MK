@@ -26,7 +26,7 @@ export const Typography = (props) => {
 Typography.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
-  variant: PropTypes.oneOf(['h1', 'h2', 'h3', 'h2work', 'h3work', 'h4work'])
+  variant: PropTypes.oneOf(['h1', 'h2', 'h3', 'h2work', 'h3work', 'h4work', 'h2h'])
 }
 
 export default Typography

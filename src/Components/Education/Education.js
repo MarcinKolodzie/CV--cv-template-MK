@@ -16,7 +16,7 @@ export const Education = (props) => {
       {...otherProps}
     >
       <Typography
-        variant={'h2'}
+        variant={'h2h'}
       >
         Education
       </Typography>

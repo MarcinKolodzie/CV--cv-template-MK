@@ -25,7 +25,7 @@ export const Skills = (props) => {
       {...otherProps}
     >
       <Typography
-        variant={'h2'}
+        variant={'h2h'}
       >
         Skills
       </Typography>
