@@ -8,6 +8,7 @@ import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import ContactItem from './Components/ContactItem'
 import Languages from './Components/Languages'
+import LanguagesItem from './Components/LanguagesItem'
 import BigWing from './Components/BigWing'
 import PreviousWork from './Components/PreviousWork'
 import Experience from './Components/Experience'
@@ -33,6 +34,7 @@ const linkGIT = 'https://github.com/ MarcinKolodzie'
 
 const language1 = 'language1'
 const language2 = 'language2'
+const language3 = 'language3'
 
 export const App = () => {
   return (
@@ -102,10 +104,16 @@ export const App = () => {
             />
 
           </Skills>
-          <Languages
-            language1 = {language1}
-            language2 = {language2}
-          >
+          <Languages >
+            <LanguagesItem
+              text = {language1}
+            />
+            <LanguagesItem
+              text ={language2}
+            />
+            <LanguagesItem
+              text ={language3}
+            />
           </Languages>
         </NarrowWing>
         <BigWing>

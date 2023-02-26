@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.iconWrapper{
+  margin-right: 10px;
+}

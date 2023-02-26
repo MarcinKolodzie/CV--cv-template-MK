@@ -7,8 +7,7 @@ import Typography from '../Typography'
 export const Languages = (props) => {
   const {
     className,
-    language1,
-    language2,
+    children,
     ...otherProps
   } = props
 
@@ -17,20 +16,19 @@ export const Languages = (props) => {
       className={`${classes.root}${className ? ` ${className}` : ''}`}
       {...otherProps}
     >
-      <Typography >
-        {language1}
+      <Typography
+        variant={'h2h'}
+      >
+        Languages
       </Typography>
-      <Typography >
-        {language2}
-      </Typography>
+      {children}
     </div>
   )
 }
 
 Languages.propTypes = {
   className: PropTypes.string,
-  language1: PropTypes.string,
-  language2: PropTypes.string
+  children: PropTypes.node
 }
 
 export default Languages
