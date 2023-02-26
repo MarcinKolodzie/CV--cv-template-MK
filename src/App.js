@@ -15,6 +15,7 @@ import Education from './Components/Education'
 
 import classes from './styles.module.css'
 import EducarionItem from './Components/EducationItem'
+import SkillsItem from './Components/SkillsItem/SkillsItem'
 
 const skill1 = 'HTML5'
 const skill2 = 'CSS3'
@@ -69,16 +70,32 @@ export const App = () => {
             />
 
           </Contact>
-          <Skills
-            skill1= {skill1}
-            skill2= {skill2}
-            skill3= {skill3}
-            skill4= {skill4}
-            skill5= {skill5}
-            skill6= {skill6}
-            skill7= {skill7}
-            skill8= {skill8}
-          >
+          <Skills>
+            <SkillsItem
+              text= {skill1}
+            />
+            <SkillsItem
+              text= {skill2}
+            />
+            <SkillsItem
+              text= {skill3}
+            />
+            <SkillsItem
+              text= {skill4}
+            />
+            <SkillsItem
+              text= {skill5}
+            />
+            <SkillsItem
+              text= {skill6}
+            />
+            <SkillsItem
+              text= {skill7}
+            />
+            <SkillsItem
+              text= {skill8}
+            />
+
           </Skills>
           <Languages
             language1 = {language1}
