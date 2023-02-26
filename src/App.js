@@ -72,18 +72,23 @@ export const App = () => {
           </Contact>
           <Skills>
             <SkillsItem
+              icon={'HTML5'}
               text= {skill1}
             />
             <SkillsItem
+              icon={'CSS3'}
               text= {skill2}
             />
             <SkillsItem
+              icon={'Webpack'}
               text= {skill3}
             />
             <SkillsItem
+              icon={'Git'}
               text= {skill4}
             />
             <SkillsItem
+              icon={'REACT'}
               text= {skill5}
             />
             <SkillsItem

@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-direction: row;
-  padding: 10px 0px 10px 0px;
+  padding-top: 10px;
 }
 
 .iconWrapper{

@@ -4,9 +4,10 @@ import PropTypes from 'prop-types'
 import classes from './styles.module.css'
 import Typography from '../Typography'
 import HTML5Icon from './HTML5Icon'
-import PhoneIcon from './PhoneIcon'
-import GitHubIcon from './GitHubIcon'
-import LinkedInIcon from './LinkedInIcon'
+import GitIcon from './GitIcon'
+import CSS3Icon from './CSS3Icon'
+import WebpackIcon from './WebpackIcon'
+import REACTIcon from './REACTIcon'
 
 export const SkillsItem = (props) => {
   const {
@@ -28,16 +29,19 @@ export const SkillsItem = (props) => {
         icon === 'HTML5' ?
           <HTML5Icon />
           :
-          icon === 'phone' ?
-            <PhoneIcon />
+          icon === 'CSS3' ?
+            <CSS3Icon />
             :
-            icon === 'github' ?
-              <GitHubIcon />
+            icon === 'Webpack' ?
+              <WebpackIcon />
               :
-              icon === 'linkedIn' ?
-                <LinkedInIcon />
+              icon === 'Git' ?
+                <GitIcon />
                 :
-                null
+                icon === 'REACT' ?
+                  <REACTIcon />
+                  :
+                  null
 }
       </div>
       <div

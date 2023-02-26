@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import cvPhoto from '../img/CV-photo1.png'
+import cvPhoto from '../img/CV-photo2.png'
 
 import classes from './styles.module.css'
 
