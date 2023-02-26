@@ -32,9 +32,9 @@ const phone = '794 263 397'
 const linkLI = 'www.linkedin.com/in/ marcin-kołodziej-4b5396211'
 const linkGIT = 'https://github.com/ MarcinKolodzie'
 
-const language1 = 'language1'
-const language2 = 'language2'
-const language3 = 'language3'
+const language1 = 'Polish'
+const language2 = 'English'
+const language3 = 'Russian'
 
 export const App = () => {
   return (

@@ -43,7 +43,9 @@ export const ContactItem = (props) => {
       <div
         className={classes.textWrapper}
       >
-        <Typography>
+        <Typography
+          variant={'LWing'}
+        >
           {text}
         </Typography>
       </div>

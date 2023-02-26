@@ -47,7 +47,9 @@ export const SkillsItem = (props) => {
       <div
         className={classes.textWrapper}
       >
-        <Typography>
+        <Typography
+          variant={'LWing'}
+        >
           {text}
         </Typography>
       </div>
