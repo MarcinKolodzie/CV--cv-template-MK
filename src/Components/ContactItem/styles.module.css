@@ -1,11 +1,12 @@
 .root {
   display: flex;
   flex-direction: row;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 5px 0px;
 }
 
 .iconWrapper{
   display: flex;
   align-items: center;
   margin-right: 10px;
+  margin-left: 10px;
 }

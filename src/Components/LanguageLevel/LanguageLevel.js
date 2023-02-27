@@ -23,24 +23,28 @@ export const LanguageLevel = (props) => {
           :
           <GreyDotIcon />
           }
+      <div></div>
       {
         level >= 2 ?
           <PinkDotIcon />
           :
           <GreyDotIcon />
           }
+      <div></div>
       {
         level >= 3 ?
           <PinkDotIcon />
           :
           <GreyDotIcon />
           }
+      <div></div>
       {
         level >= 4 ?
           <PinkDotIcon />
           :
           <GreyDotIcon />
           }
+      <div></div>
       {
         level === 5 ?
           <PinkDotIcon />

@@ -3,8 +3,8 @@ import * as React from 'react'
 export const PinkDotIcon
  = (props) => (
    <svg
-     width={20}
-     height={20}
+     width={10}
+     height={10}
      viewBox={'0 0 36 36'}
      xmlns={'http://www.w3.org/2000/svg'}
      aria-hidden={'true'}

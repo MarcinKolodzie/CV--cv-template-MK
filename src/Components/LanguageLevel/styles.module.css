@@ -1,7 +1,8 @@
 .root {
   display: flex;
   flex-direction: row;
-  padding-top: 10px;
 }
 
-.languageLevelWrapper {}
+div {
+  margin-right: 5px;
+}
