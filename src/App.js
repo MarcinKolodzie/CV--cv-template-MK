@@ -33,8 +33,11 @@ const linkLI = 'www.linkedin.com/in/ marcin-kołodziej-4b5396211'
 const linkGIT = 'https://github.com/ MarcinKolodzie'
 
 const language1 = 'Polish'
+const leve1 = 5
 const language2 = 'English'
+const leve2 = 3
 const language3 = 'Russian'
+const leve3 = 1
 
 export const App = () => {
   return (
@@ -107,12 +110,15 @@ export const App = () => {
           <Languages >
             <LanguagesItem
               text = {language1}
+              level={leve1}
             />
             <LanguagesItem
               text ={language2}
+              level={leve2}
             />
             <LanguagesItem
               text ={language3}
+              level={leve3}
             />
           </Languages>
         </NarrowWing>
