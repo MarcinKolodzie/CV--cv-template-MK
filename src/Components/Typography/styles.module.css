@@ -17,6 +17,7 @@
   line-height: 36px;
   letter-spacing: 0.15000000596046448px;
   text-align: left;
+  padding-bottom: 5px;
 }
 
 .h3 {
@@ -61,6 +62,7 @@
   letter-spacing: 0.15000000596046448px;
   text-align: left;
   background-color: rgb(238, 232, 225);
+  margin-right: 0;
 }
 
 .LWing{
