@@ -18,11 +18,12 @@ import classes from './styles.module.css'
 import EducarionItem from './Components/EducationItem'
 import SkillsItem from './Components/SkillsItem/SkillsItem'
 
+const skill0 = 'JS ES6'
 const skill1 = 'HTML5'
 const skill2 = 'CSS3'
 const skill3 = 'Webpack'
 const skill4 = 'Git'
-const skill5 = 'REACT'
+const skill5 = 'REACT v.17'
 const skill6 = 'Problem solving'
 const skill7 = 'Critical thinking'
 const skill8 = 'Communication'
@@ -37,7 +38,7 @@ const leve1 = 5
 const language2 = 'English'
 const leve2 = 3
 const language3 = 'Russian'
-const leve3 = 1
+const leve3 = 2
 
 export const App = () => {
   return (
@@ -76,6 +77,10 @@ export const App = () => {
 
           </Contact>
           <Skills>
+            <SkillsItem
+              icon={'JS'}
+              text= {skill0}
+            />
             <SkillsItem
               icon={'HTML5'}
               text= {skill1}

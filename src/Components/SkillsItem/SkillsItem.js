@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import classes from './styles.module.css'
 import Typography from '../Typography'
+import JSIcon from './JSIcon'
 import HTML5Icon from './HTML5Icon'
 import GitIcon from './GitIcon'
 import CSS3Icon from './CSS3Icon'
@@ -26,22 +27,25 @@ export const SkillsItem = (props) => {
         className={classes.iconWrapper}
       >
         {
-        icon === 'HTML5' ?
-          <HTML5Icon />
-          :
-          icon === 'CSS3' ?
-            <CSS3Icon />
+          icon === 'JS' ?
+            <JSIcon />
             :
-            icon === 'Webpack' ?
-              <WebpackIcon />
+            icon === 'HTML5' ?
+              <HTML5Icon />
               :
-              icon === 'Git' ?
-                <GitIcon />
+              icon === 'CSS3' ?
+                <CSS3Icon />
                 :
-                icon === 'REACT' ?
-                  <REACTIcon />
+                icon === 'Webpack' ?
+                  <WebpackIcon />
                   :
-                  null
+                  icon === 'Git' ?
+                    <GitIcon />
+                    :
+                    icon === 'REACT' ?
+                      <REACTIcon />
+                      :
+                      null
 }
       </div>
       <div
