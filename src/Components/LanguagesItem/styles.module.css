@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-direction: row;
-  padding: 7px 0px 7px 0px;
+  padding: 7px 0px 5px 0px;
   align-items: center;
   justify-content: space-between;
   margin-left: 10px;

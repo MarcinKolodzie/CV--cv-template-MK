@@ -1,3 +1,6 @@
-.root {
-  width: 33%;
+.root {}
+
+img {
+  max-width: 200px;
+  border-radius: 35%;
 }

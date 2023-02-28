@@ -18,6 +18,11 @@ import classes from './styles.module.css'
 import EducarionItem from './Components/EducationItem'
 import SkillsItem from './Components/SkillsItem/SkillsItem'
 
+const email = 'marcin1.kolodziej @gmail.com'
+const phone = '794 263 397'
+const linkLI = 'www.linkedin.com/in/ marcin-kołodziej-4b5396211'
+const linkGIT = 'https://github.com/ MarcinKolodzie'
+
 const skill0 = 'JS ES6'
 const skill1 = 'HTML5'
 const skill2 = 'CSS3'
@@ -27,11 +32,6 @@ const skill5 = 'REACT v.17'
 const skill6 = 'Problem solving'
 const skill7 = 'Critical thinking'
 const skill8 = 'Communication'
-
-const email = 'marcin1.kolodziej @gmail.com'
-const phone = '794 263 397'
-const linkLI = 'www.linkedin.com/in/ marcin-kołodziej-4b5396211'
-const linkGIT = 'https://github.com/ MarcinKolodzie'
 
 const language1 = 'Polish'
 const leve1 = 5
