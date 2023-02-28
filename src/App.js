@@ -5,6 +5,7 @@ import Preview from './Components/Preview'
 import Photo from './Components/Photo'
 import NarrowWing from './Components/NarrowWing'
 import Skills from './Components/Skills'
+import SkillsItem from './Components/SkillsItem/SkillsItem'
 import Contact from './Components/Contact'
 import ContactItem from './Components/ContactItem'
 import Languages from './Components/Languages'
@@ -13,20 +14,25 @@ import BigWing from './Components/BigWing'
 import PreviousWork from './Components/PreviousWork'
 import Experience from './Components/Experience'
 import Education from './Components/Education'
+import EducarionItem from './Components/EducationItem'
 
+// PHOTO IMPORT //
 import cvPhotoPath from './img/IMG_CV_photo.png'
 
 import classes from './styles.module.css'
-import EducarionItem from './Components/EducationItem'
-import SkillsItem from './Components/SkillsItem/SkillsItem'
 
-// CONTACT //
+// PREVIEW DATA //
+const heading = 'Marcin Kołodziej'
+const degree = 'Master of Chemistry, Frontend Developer'
+const previewText = 'Creative and open-minded beginner front-end developer with critical thinking and problem-solving skills looking for a suitable developer position with an ambitious and exciting company.'
+
+// CONTACT DATA //
 const email = 'marcin1.kolodziej @gmail.com'
 const phone = '794 263 397'
 const linkLI = 'www.linkedin.com/in/ marcin-kołodziej-4b5396211'
 const linkGIT = 'https://github.com/ MarcinKolodzie'
 
-// SKILLS //
+// SKILLS DATA //
 const skill0 = 'JS ES6'
 const skill1 = 'HTML5'
 const skill2 = 'CSS3'
@@ -37,7 +43,7 @@ const skill6 = 'Problem solving'
 const skill7 = 'Critical thinking'
 const skill8 = 'Communication'
 
-// LANGUAGES //
+// LANGUAGES DATA //
 const language1 = 'Polish'
 const leve1 = 5
 const language2 = 'English'
@@ -54,11 +60,9 @@ export const App = () => {
           cvPhoto={cvPhotoPath}
         />
         <Preview
-          heading={'Marcin Kołodziej'}
-          degree1={'Master of Chemistry, Frontend Developer'}
-          text={`Creative and open-minded beginner front-end developer with critical thinking
-          and problem-solving skills looking for a suitable developer position with an
-          ambitious and exciting company.`}
+          heading={heading}
+          degree1={degree}
+          text={previewText}
         />
       </Head>
       <Main>
