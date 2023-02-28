@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import cvPhoto from '../img/IMG_CV_photo.png'
 
 import classes from './styles.module.css'
 
 export const Photo = (props) => {
   const {
     className,
+    cvPhoto,
     src,
     ...otherProps
   } = props
@@ -26,6 +26,7 @@ export const Photo = (props) => {
 
 Photo.propTypes = {
   className: PropTypes.string,
+  cvPhoto: PropTypes.string,
   src: PropTypes.string
 }
 

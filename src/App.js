@@ -14,6 +14,8 @@ import PreviousWork from './Components/PreviousWork'
 import Experience from './Components/Experience'
 import Education from './Components/Education'
 
+import cvPhotoPath from './img/IMG_CV_photo.png'
+
 import classes from './styles.module.css'
 import EducarionItem from './Components/EducationItem'
 import SkillsItem from './Components/SkillsItem/SkillsItem'
@@ -49,6 +51,7 @@ export const App = () => {
       <Head>
         <Photo
           className={classes.photo}
+          cvPhoto={cvPhotoPath}
         />
         <Preview
           heading={'Marcin Kołodziej'}
